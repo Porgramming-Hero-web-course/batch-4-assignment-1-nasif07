@@ -3,7 +3,7 @@
     const lowercasedSentence = sentence.toLowerCase();
     const lowercasedWord = word.toLowerCase();
     const wordArray = lowercasedSentence.split(" ");
-    const count = wordArray.filter((w) => w === lowercasedWord).length;
+    const count = wordArray.filter((value) => value === lowercasedWord).length;
     return count;
   }
 }
